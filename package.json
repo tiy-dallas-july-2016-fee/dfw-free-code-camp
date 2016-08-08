@@ -1,0 +1,22 @@
+{
+  "name": "dfw-free-code-camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiy-dallas-july-2016-fee/dfw-free-code-camp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiy-dallas-july-2016-fee/dfw-free-code-camp/issues"
+  },
+  "homepage": "https://github.com/tiy-dallas-july-2016-fee/dfw-free-code-camp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
