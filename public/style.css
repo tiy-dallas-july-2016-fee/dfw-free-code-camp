@@ -83,7 +83,7 @@ table {
 .container {
   font-family: Lato, sans-serif;
   background-color: white;
-  width: 960px;
+  max-width: 960px;
   text-align: center;
   margin: 45px auto; }
 
@@ -130,3 +130,38 @@ span {
   padding: 6px;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+.weekend {
+  clear: both;
+  overflow: auto; }
+
+.wkend_image {
+  width: 29.3333%;
+  float: left;
+  padding: 0 2%; }
+
+.wkend_image p {
+  color: #979797;
+  text-align: bottom; }
+
+.wkend_image img {
+  width: 30%; }
+
+.wkend_paragraph1 {
+  margin-top: 43px; }
+
+.wkend_paragraph2 {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 8%; }
+
+.wkend_paragraph3 {
+  margin-top: 13px;
+  width: 80%;
+  margin-left: 8%; }
+
+h3 {
+  font-size: 1.85em;
+  margin-bottom: 50px;
+  margin-top: 85px;
+  text-align: center; }
