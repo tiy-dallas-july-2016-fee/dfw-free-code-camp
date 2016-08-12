@@ -285,21 +285,9 @@ a:hover {
   text-align: center;
   margin-top: 50px; }
 
-.tony {
+.dudes {
   float: left;
-  width: 50%; }
-
-.jonathan {
-  float: left;
-  width: 50%; }
-
-.austin {
-  float: left;
-  width: 50%; }
-
-.douglas {
-  float: left;
-  width: 50%; }
+  width: 45%; }
 
 .name-title {
   color: #4da7e8;
@@ -412,7 +400,9 @@ a:hover {
     border: 1px solid #4da7e8;
     width: 57%;
     margin: 13px auto;
-    border-radius: 4px; } }
+    border-radius: 4px; }
+  .dudes {
+    width: 100%; } }
 
 @media screen and (max-width: 650px) {
   .weekend h3 {
@@ -475,4 +465,9 @@ a:hover {
     font-family: serif;
     font-size: 2em;
     margin: 0 auto;
-    text-align: center; } }
+    text-align: center; }
+  .footer-pic1 img {
+    display: block;
+    vertical-align: none;
+    margin: 0 auto;
+    width: 80%; } }

@@ -295,28 +295,9 @@ a:hover {
   margin-top: 50px;
 }
 
-.tony {
+.dudes {
   float: left;
-  width: 50%;
-
-}
-
-.jonathan {
-  float: left;
-  width: 50%;
-
-}
-
-
-.austin {
-  float: left;
-  width: 50%;
-
-}
-
-.douglas {
-  float: left;
-  width: 50%;
+  width: 45%;
 
 }
 
@@ -353,8 +334,7 @@ a:hover {
   margin-left: 5%;
 }
 
-.footer-pic-container {
-}
+
 
 .footer-pic1 {
   display: inline-block;
@@ -479,6 +459,11 @@ a:hover {
   }
 
 
+.dudes {
+  width: 100%;
+}
+
+
 
 }
 
@@ -573,6 +558,14 @@ a:hover {
       font-size: 2em;
       margin: 0 auto;
       text-align: center;
+
+    }
+
+    .footer-pic1 img{
+      display: block;
+      vertical-align: none;
+      margin: 0 auto;
+      width: 80%;
 
     }
 
