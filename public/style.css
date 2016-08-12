@@ -145,7 +145,7 @@ p {
   text-align: bottom; }
 
 .wkend_image img {
-  max-width: 30%; }
+  width: 30%; }
 
 .wkend_paragraph1 {
   margin-top: 43px;
@@ -177,8 +177,7 @@ h3 {
   font-family: serif;
   color: black;
   text-align: center;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .schedule-box1 {
   overflow: auto;
@@ -196,7 +195,7 @@ h3 {
   padding: 20px 3%; }
 
 .box-pic img {
-  max-width: 25%;
+  width: 25%;
   float: left; }
 
 .box-text {
@@ -219,7 +218,7 @@ h3 {
   margin-top: 37px; }
 
 .lunch {
-  color: rgba(22, 197, 110, 1.0);
+  color: green;
   font-size: 1.3em;
   font-family: serif;
   margin-right: 73px;
@@ -268,18 +267,15 @@ a:hover {
   overflow: auto;
   margin: -30px auto;
   width: 100%;
-  clear: both;
-}
+  clear: both; }
 
 .bottom-container img {
   max-width: 77px;
-  float: left;
-}
+  float: left; }
 
 .inside-container {
   max-width: 55%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .mentors {
   font-size: 38px;
@@ -287,56 +283,43 @@ a:hover {
   font-family: serif;
   color: black;
   text-align: center;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .tony {
   float: left;
-  width: 50%;
-
-}
+  width: 50%; }
 
 .jonathan {
   float: left;
-  width: 50%;
-
-}
-
+  width: 50%; }
 
 .austin {
   float: left;
-  width: 50%;
-
-}
+  width: 50%; }
 
 .douglas {
   float: left;
-  width: 50%;
-
-}
+  width: 50%; }
 
 .name-title {
   color: #4da7e8;
   font-family: sans-serif;
   float: left;
   width: 50%;
-  padding: 18px 4% 0px 4%;
-}
+  padding: 18px 4% 0px 4%; }
 
 .mentor-class {
-  color: rgba(150, 150, 150, 1.0);
+  color: #969696;
   font-size: .8em;
-  margin-top: -40px;
-}
+  margin-top: -40px; }
 
 .mentor-paragraph {
-  clear:both;
+  clear: both;
   font-family: sans-serif;
   font-style: italic;
   font-size: .8em;
   margin-top: 0px;
-  margin-right: 15%;
-}
+  margin-right: 15%; }
 
 .footer-text {
   font-size: 1.9em;
@@ -345,21 +328,151 @@ a:hover {
   color: black;
   text-align: center;
   margin-top: 50px;
-  margin-left: 5%;
-}
-
-.footer-pic-container {
-}
+  margin-left: 5%; }
 
 .footer-pic1 {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 2%;
-}
+  margin-right: 2%; }
 
 .footer-pic2 {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 3%;
+  margin-right: 3%; }
 
-}
+@media screen and (max-width: 940px) {
+  .header-left {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    width: 80%; }
+  .header-right {
+    text-align: center;
+    float: none;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 80%; }
+  h1 {
+    text-align: center; }
+  h2 {
+    line-height: auto;
+    width: auto;
+    text-align: center; }
+  .registration-msg {
+    margin: 0 auto; }
+  .header-right img {
+    margin-left: 3%;
+    max-width: 100%; } }
+
+@media screen and (max-width: 900px) {
+  .schedule-box1 {
+    overflow: none;
+    border: 1px solid #4da7e8;
+    width: 57%;
+    margin: 0 auto;
+    border-radius: 4px; }
+  .date-box {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+    background-color: #4da7e8;
+    color: white;
+    padding: 20px 3%;
+    overflow: auto; }
+  .box-pic img {
+    width: 15%;
+    float: left; }
+  .box-text {
+    float: left;
+    width: 75%;
+    font-family: serif;
+    font-size: 2em;
+    margin-top: 18px; }
+  .time-box {
+    float: none;
+    width: auto; }
+  .timings {
+    font-size: 2.5em;
+    font-family: serif;
+    text-align: none;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px 0; }
+  .lunch {
+    color: green;
+    font-size: 1.5em;
+    font-family: serif;
+    margin: 0 auto;
+    padding-left: 4%;
+    display: inline-block;
+    vertical-align: middle; }
+  .schedule-box2 {
+    overflow: auto;
+    border: 1px solid #4da7e8;
+    width: 57%;
+    margin: 13px auto;
+    border-radius: 4px; } }
+
+@media screen and (max-width: 650px) {
+  .weekend h3 {
+    width: 80%;
+    margin: 40px auto; }
+  .wkend_image {
+    width: auto;
+    float: none;
+    padding: 0 2%; }
+  .wkend_image p {
+    color: #979797;
+    text-align: auto;
+    margin-left: 3%;
+    display: inline-block;
+    margin: 0 auto 20px auto; }
+  .wkend_image img {
+    max-width: 20%;
+    display: inline-block;
+    margin: 0 auto; }
+  .wkend_paragraph1 {
+    margin: auto;
+    font-family: serif;
+    width: 80%;
+    margin-left: 8%; }
+  .wkend_paragraph2 {
+    margin: auto;
+    width: 80%;
+    margin-left: 8%;
+    font-family: serif; }
+  .wkend_paragraph3 {
+    margin: auto;
+    width: 80%;
+    margin-left: 8%;
+    font-family: serif; } }
+
+@media screen and (max-width: 540px) {
+  .timings {
+    width: 80%;
+    font-size: 2.5em;
+    font-family: serif;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px 0; }
+  .box-pic img {
+    display: none; }
+  .box-text {
+    float: none;
+    width: 75%;
+    font-family: serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 420px) {
+  .box-text {
+    float: none;
+    width: 80%;
+    font-family: serif;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center; } }
