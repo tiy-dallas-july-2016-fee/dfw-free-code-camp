@@ -82,7 +82,7 @@ p {
 
 
 
-span {
+.registrants {
   font-weight: bold;
   text-decoration: underline;
 
@@ -121,20 +121,28 @@ span {
   width: 30%;
 }
 
+
 .wkend_paragraph1 {
   margin-top: 43px;
+  font-family: serif;
+  width: 80%;
+  margin-left: 8%;
 }
 
 .wkend_paragraph2 {
   margin-top: 30px;
   width: 80%;
   margin-left: 8%;
+  font-family: serif;
+
 }
 
 .wkend_paragraph3 {
   margin-top: 13px;
   width: 80%;
   margin-left: 8%;
+  font-family: serif;
+
 
 }
 
@@ -144,4 +152,117 @@ h3 {
   margin-bottom: 50px;
   margin-top: 85px;
   text-align: center;
+}
+
+.schedule {
+  font-size: 38px;
+	font-weight: bold;
+  font-family: serif;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.schedule-box1 {
+  overflow: auto;
+  border: 1px solid #4da7e8;
+  width: 57%;
+  margin: 0 auto;
+  border-radius: 4px;
+
+}
+
+.date-box {
+  float: left;
+  width: 45%;
+  margin: 0 auto;
+  background-color: #4da7e8;
+  color: white;
+  padding: 20px 3%;
+
+}
+
+
+.box-pic img {
+  width: 25%;
+  float: left;
+}
+
+.box-text {
+  float: left;
+  width: 75%;
+  font-family: serif;
+  font-size: 1.5em;
+  margin-top: 18px;
+}
+
+.time-box  {
+  float: left;
+  width: 45%;
+}
+
+.timings {
+  font-size: 1.7em;
+  font-family: serif;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 8%;
+  margin-top: 37px;
+}
+
+.lunch {
+  color: green;
+  font-size: 1.3em;
+  font-family: serif;
+  margin-right: 73px;
+  margin-top: 8px;
+
+}
+
+.schedule-box2 {
+  overflow: auto;
+  border: 1px solid #4da7e8;
+  width: 57%;
+  margin: 13px auto;
+  border-radius: 4px;
+
+}
+
+.reward-location {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.at-sign {
+  font-family: serif;
+  font-size: 3.2em;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.p2, .p3{
+  color: #4da7e8;
+  font-family: serif;
+  font-size:1.5em;
+  margin: 0;
+
+}
+
+.p1 {
+  font-size: 2.2em;
+  color: #4da7e8;
+  font-family: serif;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4da7e8;
 }
