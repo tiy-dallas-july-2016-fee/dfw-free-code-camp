@@ -145,7 +145,7 @@ p {
   text-align: bottom; }
 
 .wkend_image img {
-  width: 30%; }
+  max-width: 30%; }
 
 .wkend_paragraph1 {
   margin-top: 43px;
@@ -195,7 +195,7 @@ h3 {
   padding: 20px 3%; }
 
 .box-pic img {
-  width: 25%;
+  max-width: 25%;
   float: left; }
 
 .box-text {
@@ -260,3 +260,80 @@ a {
 a:hover {
   text-decoration: underline;
   color: #4da7e8; }
+
+.bottom-container {
+  background-color: #DDD;
+  font-family: Lato, sans-serif;
+  overflow: auto;
+  margin: -30px auto;
+  width: 100%;
+  clear: both;
+}
+
+.bottom-container img {
+  max-width: 77px;
+  float: left;
+}
+
+.inside-container {
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+.mentors {
+  color: rgba(75, 75, 75, 1.0);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-bottom: 25px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.tony {
+  float: left;
+  width: 50%;
+
+}
+
+.jonathan {
+  float: left;
+  width: 50%;
+
+}
+
+
+.austin {
+  float: left;
+  width: 50%;
+
+}
+
+.douglas {
+  float: left;
+  width: 50%;
+
+}
+
+.name-title {
+  color: #4da7e8;
+  font-family: sans-serif;
+  float: left;
+  width: 50%;
+  padding: 18px 4% 0px 4%;
+}
+
+.mentor-class {
+  color: rgba(150, 150, 150, 1.0);
+  font-size: .8em;
+  margin-top: -40px;
+}
+
+.mentor-paragraph {
+  clear:both;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: .8em;
+  margin-top: 0px;
+  margin-right: 15%;
+}
