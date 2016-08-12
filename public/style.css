@@ -177,7 +177,8 @@ h3 {
   font-family: serif;
   color: black;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .schedule-box1 {
   overflow: auto;
@@ -218,7 +219,7 @@ h3 {
   margin-top: 37px; }
 
 .lunch {
-  color: green;
+  color: rgba(22, 197, 110, 1.0);
   font-size: 1.3em;
   font-family: serif;
   margin-right: 73px;
@@ -281,13 +282,12 @@ a:hover {
 }
 
 .mentors {
-  color: rgba(75, 75, 75, 1.0);
-  font-family: sans-serif;
+  font-size: 38px;
   font-weight: bold;
-  font-size: 1.9em;
-  margin-bottom: 25px;
-  padding-top: 35px;
+  font-family: serif;
+  color: black;
   text-align: center;
+  margin-top: 50px;
 }
 
 .tony {
@@ -336,4 +336,30 @@ a:hover {
   font-size: .8em;
   margin-top: 0px;
   margin-right: 15%;
+}
+
+.footer-text {
+  font-size: 1.9em;
+  font-weight: bold;
+  font-family: serif;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.footer-pic-container {
+}
+
+.footer-pic1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+.footer-pic2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3%;
+
 }
