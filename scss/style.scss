@@ -35,8 +35,11 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
 }
 
-.container {
+body {
   font-family: Lato, sans-serif;
+}
+
+.container {
   background-color: white;
   max-width: 960px;
   text-align:center;
@@ -124,7 +127,6 @@ p {
 
 .wkend_paragraph1 {
   margin-top: 43px;
-  font-family: serif;
   width: 80%;
   margin-left: 8%;
 }
@@ -133,7 +135,6 @@ p {
   margin-top: 30px;
   width: 80%;
   margin-left: 8%;
-  font-family: serif;
 
 }
 
@@ -141,7 +142,6 @@ p {
   margin-top: 13px;
   width: 80%;
   margin-left: 8%;
-  font-family: serif;
 
 
 }
@@ -157,7 +157,6 @@ h3 {
 .schedule {
   font-size: 38px;
 	font-weight: bold;
-  font-family: serif;
   color: black;
   text-align: center;
   margin-top: 50px;
@@ -192,7 +191,6 @@ h3 {
 .box-text {
   float: left;
   width: 75%;
-  font-family: serif;
   font-size: 1.5em;
   margin-top: 18px;
 }
@@ -204,7 +202,6 @@ h3 {
 
 .timings {
   font-size: 1.7em;
-  font-family: serif;
   text-align: left;
   vertical-align: middle;
   margin-left: 8%;
@@ -214,7 +211,6 @@ h3 {
 .lunch {
   color: green;
   font-size: 1.3em;
-  font-family: serif;
   margin-right: 73px;
   margin-top: 8px;
 
@@ -235,7 +231,6 @@ h3 {
 }
 
 .at-sign {
-  font-family: serif;
   font-size: 3.2em;
   font-weight: bold;
   margin-top: 35px;
@@ -243,7 +238,6 @@ h3 {
 
 .p2, .p3{
   color: #4da7e8;
-  font-family: serif;
   font-size:1.5em;
   margin: 0;
 
@@ -252,7 +246,6 @@ h3 {
 .p1 {
   font-size: 2.2em;
   color: #4da7e8;
-  font-family: serif;
   margin-top: 20px;
   margin-bottom: 0;
 
@@ -269,7 +262,6 @@ a:hover {
 
 .bottom-container {
   background-color: #DDD;
-  font-family: Lato, sans-serif;
   overflow: auto;
   margin: -30px auto;
   width: 100%;
@@ -282,14 +274,14 @@ a:hover {
 }
 
 .inside-container {
-  max-width: 55%;
+  max-width: 100%;
   margin: 0 auto;
+  padding-left: 15%;
 }
 
 .mentors {
   font-size: 38px;
   font-weight: bold;
-  font-family: serif;
   color: black;
   text-align: center;
   margin-top: 50px;
@@ -297,13 +289,14 @@ a:hover {
 
 .dudes {
   float: left;
-  width: 45%;
+  width: 40%;
+  margin-right: 6%;
 
 }
 
+
 .name-title {
   color: #4da7e8;
-  font-family: sans-serif;
   float: left;
   width: 50%;
   padding: 18px 4% 0px 4%;
@@ -317,7 +310,6 @@ a:hover {
 
 .mentor-paragraph {
   clear:both;
-  font-family: sans-serif;
   font-style: italic;
   font-size: .8em;
   margin-top: 0px;
@@ -327,7 +319,6 @@ a:hover {
 .footer-text {
   font-size: 1.9em;
   font-weight: bold;
-  font-family: serif;
   color: black;
   text-align: center;
   margin-top: 50px;
@@ -416,7 +407,6 @@ a:hover {
   .box-text {
     float: left;
     width: 75%;
-    font-family: serif;
     font-size: 2em;
     margin-top: 18px;
   }
@@ -428,7 +418,6 @@ a:hover {
 
   .timings {
     font-size: 2.5em;
-    font-family: serif;
     text-align: none;
     vertical-align: middle;
     margin: 0 auto;
@@ -440,7 +429,6 @@ a:hover {
   .lunch {
     color: green;
     font-size: 1.5em;
-    font-family: serif;
     margin: 0 auto;
     padding-left: 4%;
     display: inline-block;
@@ -498,7 +486,6 @@ a:hover {
 
   .wkend_paragraph1 {
     margin: auto;
-    font-family: serif;
     width: 80%;
     margin-left: 8%;
   }
@@ -507,7 +494,6 @@ a:hover {
     margin: auto;
     width: 80%;
     margin-left: 8%;
-    font-family: serif;
 
   }
 
@@ -515,7 +501,6 @@ a:hover {
     margin: auto;
     width: 80%;
     margin-left: 8%;
-    font-family: serif;
 
 
   }
@@ -526,7 +511,6 @@ a:hover {
   .timings {
     width: 80%;
     font-size: 2.5em;
-    font-family: serif;
     text-align: center;
     vertical-align: middle;
     margin: 0 auto;
@@ -542,7 +526,6 @@ a:hover {
   .box-text {
     float: none;
     width: 75%;
-    font-family: serif;
     font-size: 2em;
     text-align: center;
     margin: 0 auto;
@@ -554,7 +537,6 @@ a:hover {
     .box-text {
       float: none;
       width: 80%;
-      font-family: serif;
       font-size: 2em;
       margin: 0 auto;
       text-align: center;
