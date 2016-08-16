@@ -51,6 +51,7 @@ body {
   text-align:left;
   float: left;
   width: 40%;
+
 }
 
 .header-right {
@@ -339,6 +340,13 @@ a:hover {
   margin-right: 3%;
 
 }
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 88%;
+  }
+}
+
 
 @media screen and (max-width: 940px) {
   .header-left {
