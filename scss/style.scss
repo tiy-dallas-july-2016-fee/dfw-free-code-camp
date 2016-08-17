@@ -125,26 +125,21 @@ p {
   width: 30%;
 }
 
+.wkend_paragraph1, .wkend_paragraph2, .wkend_paragraph3 {
+  width: 80%;
+  margin-left: 8%;
+}
 
 .wkend_paragraph1 {
   margin-top: 43px;
-  width: 80%;
-  margin-left: 8%;
 }
 
 .wkend_paragraph2 {
   margin-top: 30px;
-  width: 80%;
-  margin-left: 8%;
-
 }
 
 .wkend_paragraph3 {
   margin-top: 13px;
-  width: 80%;
-  margin-left: 8%;
-
-
 }
 
 
@@ -435,12 +430,8 @@ a:hover {
   }
 
   .lunch {
-    color: green;
-    font-size: 1.5em;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     padding-left: 4%;
-    display: inline-block;
-    vertical-align: middle;
 
 
   }

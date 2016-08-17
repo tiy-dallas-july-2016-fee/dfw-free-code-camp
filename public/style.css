@@ -149,20 +149,18 @@ p {
 .wkend_image img {
   width: 30%; }
 
-.wkend_paragraph1 {
-  margin-top: 43px;
+.wkend_paragraph1, .wkend_paragraph2, .wkend_paragraph3 {
   width: 80%;
   margin-left: 8%; }
+
+.wkend_paragraph1 {
+  margin-top: 43px; }
 
 .wkend_paragraph2 {
-  margin-top: 30px;
-  width: 80%;
-  margin-left: 8%; }
+  margin-top: 30px; }
 
 .wkend_paragraph3 {
-  margin-top: 13px;
-  width: 80%;
-  margin-left: 8%; }
+  margin-top: 13px; }
 
 h3 {
   font-size: 1.85em;
@@ -379,12 +377,8 @@ a:hover {
     display: inline-block;
     padding: 20px 0; }
   .lunch {
-    color: green;
-    font-size: 1.5em;
-    margin: 0 auto;
-    padding-left: 4%;
-    display: inline-block;
-    vertical-align: middle; }
+    margin: 0 auto 10px auto;
+    padding-left: 4%; }
   .schedule-box2 {
     overflow: auto;
     border: 1px solid #4da7e8;
