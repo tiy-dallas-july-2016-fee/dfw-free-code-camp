@@ -40,34 +40,30 @@ body {
 }
 
 .container {
-  background-color: white;
   max-width: 960px;
   text-align:center;
   margin: 45px auto;
 }
 
 
-.header-left {
+.header {
   text-align:left;
   float: left;
   width: 40%;
 
 }
 
-.header-right {
+.hero-image {
   float: right;
   padding-top: 40px;
   width: 60%;
 }
 
 
-h1 {
+header h1 {
   color: #4da7e8;
-
-	text-align: left;
-	font-size: 38px;
+	font-size: 2.25em;
 	font-weight: bold;
-
   margin-bottom: 45px;
 }
 
@@ -110,40 +106,36 @@ p {
   overflow: auto;
 }
 
-.wkend_image {
+.activity {
   width: 29.3333%;
   float: left;
   padding: 0 2%;
 }
 
-.wkend_image p {
+.activity p {
   color: rgba(151, 151, 151, 1.0);
-  text-align: bottom;
-}
-
-.wkend_image img {
-  width: 30%;
-}
-
-.wkend_paragraph1, .wkend_paragraph2, .wkend_paragraph3 {
   width: 80%;
   margin-left: 8%;
 }
 
-.wkend_paragraph1 {
+.activity img {
+  width: 30%;
+}
+
+.learn-html p {
   margin-top: 43px;
 }
 
-.wkend_paragraph2 {
+.learn-css p {
   margin-top: 30px;
 }
 
-.wkend_paragraph3 {
+.learn-js p {
   margin-top: 13px;
 }
 
 
-h3 {
+.weekend h3 {
   font-size: 1.85em;
   margin-bottom: 50px;
   margin-top: 85px;
@@ -151,22 +143,20 @@ h3 {
 }
 
 .schedule {
-  font-size: 38px;
+  font-size: 2.25em;
 	font-weight: bold;
-  color: black;
   text-align: center;
   margin-top: 50px;
-
 }
 
-.schedule-box1 {
+.schedule-box {
   overflow: auto;
   border: 1px solid #4da7e8;
   width: 57%;
-  margin: 0 auto;
+  margin: 0 auto 13px auto;
   border-radius: 4px;
-
 }
+
 
 .date-box {
   float: left;
@@ -175,11 +165,10 @@ h3 {
   background-color: #4da7e8;
   color: white;
   padding: 20px 3%;
-
 }
 
 
-.box-pic img {
+.date-box img {
   width: 25%;
   float: left;
 }
@@ -212,14 +201,6 @@ h3 {
 
 }
 
-.schedule-box2 {
-  overflow: auto;
-  border: 1px solid #4da7e8;
-  width: 57%;
-  margin: 13px auto;
-  border-radius: 4px;
-
-}
 
 .reward-location {
   width: 40%;
@@ -344,14 +325,14 @@ a:hover {
 
 
 @media screen and (max-width: 940px) {
-  .header-left {
+  .header {
     text-align:center;
     float: none;
     margin: 0 auto;
     width: 80%;
   }
 
-  .header-right {
+  .hero-image {
     text-align: center;
     float: none;
     padding-top: 40px;
@@ -373,7 +354,7 @@ a:hover {
     margin: 0 auto;
   }
 
-  .header-right img {
+  .hero-image img {
     margin-left: 3%;
     max-width: 100%;
   }
@@ -402,7 +383,7 @@ a:hover {
   }
 
 
-  .box-pic img {
+  .date-box img {
     width: 15%;
     float: left;
   }
@@ -461,14 +442,14 @@ a:hover {
     margin: 40px auto;
   }
 
-  .wkend_image {
+  .activity {
     width: auto;
     float: none;
     padding: 0 2%;
     // overflow: auto;
   }
 
-  .wkend_image p {
+  .activity p {
     color: rgba(151, 151, 151, 1.0);
     text-align: auto;
     margin-left: 3%;
@@ -476,27 +457,27 @@ a:hover {
     margin: 0 auto 20px auto;
   }
 
-  .wkend_image img {
+  .activity img {
     max-width: 20%;
     display: inline-block;
 
     margin: 0 auto;
   }
 
-  .wkend_paragraph1 {
+  .learn-html {
     margin: auto;
     width: 80%;
     margin-left: 8%;
   }
 
-  .wkend_paragraph2 {
+  .learn-css {
     margin: auto;
     width: 80%;
     margin-left: 8%;
 
   }
 
-  .wkend_paragraph3 {
+  .learn-js {
     margin: auto;
     width: 80%;
     margin-left: 8%;
@@ -504,6 +485,12 @@ a:hover {
 
   }
 
+}
+
+@media screen and (max-width: 590px) {
+  .timings {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -518,7 +505,7 @@ a:hover {
 
   }
 
-  .box-pic img {
+  .date-box img {
     display: none;
   }
 
