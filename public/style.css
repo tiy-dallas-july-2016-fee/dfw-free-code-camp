@@ -145,7 +145,7 @@ p {
   margin-left: 8%; }
 
 .activity img {
-  width: 30%; }
+  max-width: 100px; }
 
 .learn-html p {
   margin-top: 43px; }
@@ -209,16 +209,14 @@ p {
   font-weight: bold;
   margin-top: 35px; }
 
-.p2, .p3 {
-  color: #4da7e8;
-  font-size: 1.5em;
-  margin: 0; }
-
 .p1 {
   font-size: 2.2em;
   color: #4da7e8;
-  margin-top: 20px;
-  margin-bottom: 0; }
+  margin-top: 20px; }
+
+.p2, .p3 {
+  color: #4da7e8;
+  font-size: 1.5em; }
 
 a {
   text-decoration: none; }
@@ -346,34 +344,17 @@ a:hover {
 
 @media screen and (max-width: 650px) {
   .weekend h3 {
-    width: 80%;
-    margin: 40px auto; }
+    line-height: 1.2em; }
   .activity {
     width: auto;
     float: none;
+    margin: 0 auto 50px auto;
     padding: 0 2%; }
   .activity p {
-    color: #979797;
-    text-align: auto;
-    margin-left: 3%;
-    display: inline-block;
-    margin: 0 auto 20px auto; }
+    margin-bottom: 20px; }
   .activity img {
-    max-width: 20%;
     display: inline-block;
-    margin: 0 auto; }
-  .learn-html {
-    margin: auto;
-    width: 80%;
-    margin-left: 8%; }
-  .learn-css {
-    margin: auto;
-    width: 80%;
-    margin-left: 8%; }
-  .learn-js {
-    margin: auto;
-    width: 80%;
-    margin-left: 8%; } }
+    margin: 0 auto; } }
 
 @media screen and (max-width: 590px) {
   .timings {
@@ -403,9 +384,4 @@ a:hover {
     width: 80%;
     font-size: 2em;
     margin: 0 auto;
-    text-align: center; }
-  .footer-pic1 img {
-    display: block;
-    vertical-align: none;
-    margin: 0 auto;
-    width: 80%; } }
+    text-align: center; } }
