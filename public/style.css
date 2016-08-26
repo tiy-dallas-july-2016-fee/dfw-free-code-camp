@@ -194,11 +194,9 @@ p {
   font-size: 1.5em;
   margin-top: 18px; }
 
-.time-box {
-  float: left;
-  width: 45%; }
-
 .timings {
+  float: left;
+  width: 45%;
   font-size: 1.7em;
   margin-top: 25px;
   padding: 10px; }
@@ -206,10 +204,6 @@ p {
 .lunch {
   color: green;
   font-size: 1.3em; }
-
-.reward-location {
-  width: 40%;
-  margin: 0 auto; }
 
 .at-sign {
   font-size: 3.2em;
@@ -237,7 +231,6 @@ a:hover {
 .bottom-container {
   background-color: #DDD;
   overflow: auto;
-  margin: -30px auto;
   width: 100%;
   clear: both; }
 
@@ -245,22 +238,14 @@ a:hover {
   max-width: 77px;
   float: left; }
 
-.inside-container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: 15%; }
-
 .mentors {
   font-size: 38px;
   font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-top: 50px; }
+  margin: 25px 0px 25px 0px; }
 
 .dudes {
   float: left;
-  width: 40%;
-  margin-right: 6%; }
+  width: 50%; }
 
 .name-title {
   color: #4da7e8;
@@ -276,8 +261,8 @@ a:hover {
 .mentor-paragraph {
   clear: both;
   font-style: italic;
-  font-size: .8em;
-  margin-top: 0px;
+  text-align: left;
+  padding-right: 20px;
   margin-right: 15%; }
 
 .footer-text {
@@ -309,10 +294,9 @@ a:hover {
     width: 15%; }
   .box-text {
     font-size: 2em; }
-  .time-box {
-    float: none;
-    width: auto; }
   .timings {
+    float: none;
+    width: auto;
     font-size: 2.5em; }
   .timings:last-child {
     margin-bottom: 30px; }
