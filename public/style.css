@@ -98,7 +98,7 @@ body {
   padding-top: 40px;
   width: 60%; }
 
-header h1 {
+.header h1 {
   color: #4da7e8;
   font-size: 2.25em;
   font-weight: bold;
@@ -167,13 +167,13 @@ p {
   font-size: 2.25em;
   font-weight: bold;
   text-align: center;
-  margin-top: 50px; }
+  margin: 50px 0 40px 0; }
 
 .schedule-box {
   overflow: auto;
   border: 1px solid #4da7e8;
   width: 57%;
-  margin: 0 auto 13px auto;
+  margin: 13px auto;
   border-radius: 4px; }
 
 .date-box {
@@ -200,16 +200,12 @@ p {
 
 .timings {
   font-size: 1.7em;
-  text-align: left;
-  vertical-align: middle;
-  margin-left: 8%;
-  margin-top: 37px; }
+  margin-top: 25px;
+  padding: 10px; }
 
 .lunch {
   color: green;
-  font-size: 1.3em;
-  margin-right: 73px;
-  margin-top: 8px; }
+  font-size: 1.3em; }
 
 .reward-location {
   width: 40%;
@@ -304,7 +300,24 @@ a:hover {
 
 @media screen and (max-width: 990px) {
   .container {
-    width: 88%; } }
+    width: 88%; }
+  .date-box {
+    float: none;
+    width: auto;
+    overflow: auto; }
+  .date-box img {
+    width: 15%; }
+  .box-text {
+    font-size: 2em; }
+  .time-box {
+    float: none;
+    width: auto; }
+  .timings {
+    font-size: 2.5em; }
+  .timings:last-child {
+    margin-bottom: 30px; }
+  .lunch {
+    margin: 0 auto 10px auto; } }
 
 @media screen and (max-width: 940px) {
   .header {
@@ -331,47 +344,6 @@ a:hover {
     max-width: 100%; } }
 
 @media screen and (max-width: 900px) {
-  .schedule-box1 {
-    overflow: none;
-    border: 1px solid #4da7e8;
-    width: 57%;
-    margin: 0 auto;
-    border-radius: 4px; }
-  .date-box {
-    float: none;
-    width: auto;
-    margin: 0 auto;
-    background-color: #4da7e8;
-    color: white;
-    padding: 20px 3%;
-    overflow: auto; }
-  .date-box img {
-    width: 15%;
-    float: left; }
-  .box-text {
-    float: left;
-    width: 75%;
-    font-size: 2em;
-    margin-top: 18px; }
-  .time-box {
-    float: none;
-    width: auto; }
-  .timings {
-    font-size: 2.5em;
-    text-align: none;
-    vertical-align: middle;
-    margin: 0 auto;
-    display: inline-block;
-    padding: 20px 0; }
-  .lunch {
-    margin: 0 auto 10px auto;
-    padding-left: 4%; }
-  .schedule-box2 {
-    overflow: auto;
-    border: 1px solid #4da7e8;
-    width: 57%;
-    margin: 13px auto;
-    border-radius: 4px; }
   .dudes {
     width: 100%; } }
 
