@@ -71,7 +71,6 @@ h2 {
   font-size: 1.45em;
   line-height: 1.4em;
   margin-bottom: 30px;
-  width: 88%;
 }
 
 p {
@@ -226,7 +225,6 @@ a:hover {
 .bottom-container {
   background-color: #DDD;
   overflow: auto;
-  // margin: -30px auto;
   width: 100%;
   clear: both;
 }
@@ -236,32 +234,31 @@ a:hover {
   float: left;
 }
 
-// .inside-container {
-//   max-width: 100%;
-//   margin: 0 auto;
-//   padding-left: 15%;
-// }
-
 .mentors {
   font-size: 38px;
   font-weight: bold;
-  // color: black;
-  // text-align: center;
   margin: 25px 0px 25px 0px ;
 }
 
 .dudes {
   float: left;
-  width: 50%;
-  // margin-right: 6%;
+  width: 45%;
 }
 
+.dudes:nth-child(odd) {
+  padding-left: 5%;
+}
+
+.dudes:nth-child(even) {
+  padding-right: 5%;
+}
 
 .name-title {
   color: #4da7e8;
   float: left;
   width: 50%;
   padding: 18px 4% 0px 4%;
+  text-align: left;
 }
 
 .mentor-class {
@@ -274,34 +271,24 @@ a:hover {
   clear:both;
   font-style: italic;
   text-align: left;
-  padding-right: 20px;
-  // font-size: .8em;
-  // margin-top: 0px;
-  margin-right: 15%;
+  font-size: .9em;
 }
 
-.footer-text {
-  font-size: 1.9em;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-top: 50px;
-  margin-left: 5%;
+.mentor-paragraph p {
+  margin-bottom: 0;
+  padding-bottom: 35px;
 }
 
-
-
-.footer-pic1 {
+.footer img {
   display: inline-block;
   vertical-align: middle;
   margin-right: 2%;
 }
 
-.footer-pic2 {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 3%;
-
+.footer-text {
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 990px) {
@@ -379,18 +366,28 @@ a:hover {
 }
 
 @media screen and (max-width: 900px) {
+  .dudes {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+    padding-top: 10px;
+  }
+  .dudes:nth-child(odd) {
+    padding-left: 0%;
+  }
 
+  .dudes:nth-child(even) {
+    padding-right: 0%;
+  }
 
+  .dudes:last-child {
+    border-bottom: none;
+  }
 
-
-
-
-
-.dudes {
-  width: 100%;
-}
-
-
+  .mentor-paragraph p {
+    padding-bottom: 20px;
+  }
 
 }
 
@@ -405,7 +402,6 @@ a:hover {
     width: auto;
     float: none;
     padding: 0 2%;
-    // overflow: auto;
   }
 
   .activity p {
